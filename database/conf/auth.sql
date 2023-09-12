@@ -1,5 +1,5 @@
 # 권한 설정
-grant all privileges on  *.* to 'root'@'%' identified by 'Wjdxhd12!@';
+grant all privileges on  *.* to 'root'@'%' identified by 'password';
 delete from mysql.user where host="localhost" and user="root";
 
 # root와 manager 패스워드 다르게 설정할 것
